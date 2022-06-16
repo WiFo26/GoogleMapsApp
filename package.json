@@ -1,0 +1,12 @@
+{
+  "name": "GoogleMapsApp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/WiFo26/GoogleMapsApp.git",
+  "author": "Luis Ramirez <lou81804@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "parcel": "^2.6.0"
+  }
+}

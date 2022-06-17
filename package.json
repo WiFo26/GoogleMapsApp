@@ -1,12 +1,19 @@
 {
-  "name": "GoogleMapsApp",
+  "name": "google-maps-app",
   "version": "1.0.0",
-  "main": "index.js",
   "repository": "https://github.com/WiFo26/GoogleMapsApp.git",
   "author": "Luis Ramirez <lou81804@gmail.com>",
   "license": "MIT",
   "private": false,
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
   "devDependencies": {
+    "@faker-js/faker": "^7.2.0",
+    "@types/google.maps": "^3.49.2",
     "parcel": "^2.6.0"
-  }
+  },
+  "dependencies": {}
 }
